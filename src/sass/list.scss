@@ -1,0 +1,122 @@
+.container{
+	margin: 0 auto;
+    width: 1100px;
+    
+    min-height: 1200px;
+    h1{
+    	margin-top: 70px;
+	    height: 40px;
+	    line-height: 40px;
+	    font-size: 26px;
+	    text-align: center;
+    }
+    h2{
+        margin: 60px 0 30px 0;
+	    height: 24px;
+	    line-height: 24px;
+	    font-size: 20px;
+	    text-align: center;
+	    font-family: 'Exo 2',sans-serif;
+	    text-transform: uppercase;
+	    font-weight: normal;
+    }
+    .category{
+	    margin-top: 30px;
+	    border-top: #aeaeae 1px solid;
+	    border-bottom: #e7e7e7 1px solid;
+	    text-align: center;
+	    a{
+	        display: inline-block;
+		    height: 85px;
+		    line-height: 85px;
+		    padding: 0 24px;
+		    background: #f7f7f7;
+		    font-size: 16px;
+		    margin-right: -4px;
+		    border-left: #e7e7e7 1px solid;
+		    border-right: #e7e7e7 1px solid;
+		    color: #888;
+	    }
+	    a:hover{
+	        color: #33b0f0;
+    		text-decoration: underline;
+	    }
+
+    }
+	.shopping_bar{
+		margin-top: 60px;
+		.total{
+		    letter-spacing: 0pt;
+		    font-weight: 500;
+		    color: #121212;
+		    font-family: 'Exo 2',sans-serif;
+		    float: left;
+		    width: 100px;
+		    height: 30px;
+		    line-height: 30px;
+		    font-size: 14px;
+		}
+		.option{
+		    float: right;
+		    width: 800px;
+		    text-align: right;
+		    height: 30px;
+		    select{
+		        line-height: 22px;
+			    margin-left: 8px;
+			    padding: 0;
+			    height: 28px;
+			    border: #e2e2e2 1px solid;
+			    color: #999;
+		    }
+		}
+	}
+	.goodslist{
+    	margin-bottom: 40px;
+	    width: 1146px;
+	    li{
+	    	width: 286px;
+    		height: 440px;
+    		float: left;
+    		margin: 22px 0;
+	    }
+	    p{
+    	    text-align: left;
+    	    span{
+    	        display: inline-block;
+			    overflow: hidden;
+			    text-indent: 100000px;
+			    background: url(../img/list/icon_sprite.png) no-repeat;
+			    height: 22px;
+			    line-height: 22px;
+    	    }
+	    }
+
+    }
+
+
+	.listPage{
+	    padding: 30px 12px;
+	    clear: both;
+	    text-align: center;
+	    font-size: 14px;
+	    vertical-align: top;
+	    span{
+	    	cursor: pointer;
+	        display: inline-block;
+		    height: 22px;
+		    line-height: 22px;
+		    margin: 5px 3px 0 3px;
+		    background: #fff;
+		    border: 1px solid #d0d0d0;
+		    overflow: hidden;
+		    vertical-align: top;
+		    width: 22px;
+		    text-align: center;
+	    }
+	    .active{
+	    	background-color:#998;
+	    }
+	}
+
+}

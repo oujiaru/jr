@@ -1,0 +1,76 @@
+.container {
+  margin: 0 auto;
+  width: 1100px;
+  min-height: 1200px;
+}
+
+.container .wrap {
+  width: 100%;
+  position: relative;
+}
+
+.container .wrap .wrap_son {
+  float: left;
+  position: relative;
+  background: #fff;
+}
+
+.container .wrap .wrap_son .best {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+}
+
+.container .wrap .wrap_son:nth-child(5) {
+  position: absolute;
+  left: 0;
+  top: 330px;
+}
+
+.container .keyword {
+  margin: 50px 0 0 0;
+}
+
+.container .keyword li {
+  float: left;
+}
+
+.container h2.list_title {
+  font-family: 'Exo 2',sans-serif;
+  color: #121212;
+  font-size: 20px;
+  letter-spacing: -0.2pt;
+  font-weight: 400;
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+  padding: 50px 0;
+}
+
+.container .goodslist {
+  margin-bottom: 40px;
+  width: 1146px;
+}
+
+.container .goodslist li {
+  width: 286px;
+  height: 440px;
+  float: left;
+  margin: 22px 0;
+}
+
+.container .goodslist p {
+  text-align: left;
+}
+
+.container .goodslist p span {
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 100000px;
+  background: url(../img/list/icon_sprite.png) no-repeat;
+  height: 22px;
+  line-height: 22px;
+}

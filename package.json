@@ -1,0 +1,29 @@
+{
+  "name": "guldsass",
+  "version": "0.0.1",
+  "description": "gulpsass学习",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "git",
+    "npm"
+  ],
+  "author": "Jr",
+  "license": "ISC"
+}

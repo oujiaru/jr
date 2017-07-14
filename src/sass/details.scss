@@ -1,0 +1,192 @@
+.container{
+	margin: 0 auto;
+    width: 1100px;
+    
+    min-height: 1200px;
+    .goodsNav{
+	    height: 34px;
+	    line-height: 34px;
+	    margin: 75px 0 30px 135px;
+	    color: #888;
+	    font-size: 14px;
+	    a{
+	        color: #888;
+    		font-size: 14px;
+	    }
+    }
+    .goodsMsg{
+
+    	.demo{
+    		margin-left: 135px;
+    		float:left;
+    	}
+    	.good_detail{
+    		float:right;
+    		margin-right:120px;
+    		width: 515px;
+    		.goods_title{
+    			border-bottom: #e6e6e6 1px dashed;
+    			strong{
+    				font-size: 15px;
+				    line-height: 20px;
+				    display: block;
+    			}
+    			h1{
+    			    font-weight: normal;
+				    font-size: 14px;
+				    line-height: 20px;
+				    color: #888;
+				    margin-right: 10px;	
+    			}
+    			span{
+	    			display: inline-block;
+				    overflow: hidden;
+				    text-indent: 100px;
+				    background-image: url(../img/list/icon_sprite.png);
+				    background-repeat: no-repeat;
+				    height: 22px;
+				    line-height: 22px;
+				    width: 35px;
+    			}
+    		}
+    		.vip_price{
+    		    border-bottom: #e6e6e6 1px dashed;
+			    height: 38px;
+			    line-height: 38px;
+			    color: #888;
+			    a{
+			        color: #888;
+				    float: right;
+				    display: inline-block;
+			    }
+    		}
+    		.sell_title{
+    			float: left;
+			    width: 75px;
+			    height: 38px;
+			    line-height: 38px;
+			    font-size: 15px;	
+    		}
+    		.sell_content{
+    			position:relative;
+    			float: left;
+			    width: 440px;
+			    height: 38px;
+			    line-height: 38px;
+			    font-size: 15px;
+			    select{
+			    	border: #d8d8d8 1px solid;
+				    font-family: Nanum-Gothic;
+				    font-size: 15px;
+				    width: 320px;
+				    height: 28px;
+				    padding-left: 5px;
+				    color: #888;
+			    }
+			    input[type="text"]{
+		    	    width: 53px;
+				    height: 14px;
+				    border: #d8d8d8 1px solid;
+				    margin-top: 5px;
+				    padding: 7px 0;
+				    color: #888;
+				    text-align: center;
+				    position:relative;
+				    top:-10px;;
+			    }
+    		}
+    		option{
+    			font-weight: normal;
+			    display: block;
+			    white-space: pre;
+			    min-height: 1.2em;
+			    padding: 0px 2px 1px;
+    		}
+    		.Gqty{
+    			span{
+	    			display: inline-block;
+				    width: 20px;
+				    height: 30px;
+				    overflow: hidden;
+				    margin-left: 5px;
+				    text-indent: 20px;
+				    background-image: url(http://img3.essxd.com/comm/images/qty_sprite.png);
+				    margin-top: 5px;
+    			}
+    			.plus{
+    				background-position:0 -30px;
+    			}
+    			
+    		}
+    		.good_buy{
+    		    margin-top: 24px;
+    		    span{
+    		    	background: #8c8c8c;
+	    		    display: inline-block;
+				    width: 160px;
+				    height: 44px;
+				    line-height: 44px;
+				    text-align: center;
+				    color: #FFF;
+				    font-size: 16px;
+				    float: left;
+				    margin-right: 10px;
+    		    }
+    		}
+    	}
+    	
+    }
+    .shoplist{
+    	background-color:#fff;
+    	width:448px;
+    	height:320px;
+    	position:fixed;
+    	padding:0 12px;
+    	top:50%;
+    	left:50%;
+    	z-index:10001;
+    	margin-left:-240px;
+    	margin-top:-160px;
+    	p:first-child{
+    		line-height: 90px;
+		    height: 90px;
+		    font-size: 20px;
+		    text-align: center;
+		    font-weight: bold;
+		    border-bottom: #e6e6e6 dashed 1px;
+		    margin-bottom: 15px;
+    	}
+    	p:nth-child(2){
+    		line-height: 24px;
+		    height: 24px;
+		    font-size: 16px;
+		    text-align: center;
+		    color: #bbb;
+		    font-weight: bold;
+    	}
+    	p:nth-child(3){
+    	    line-height: 24px;
+		    height: 24px;
+		    font-size: 14px;
+		    text-align: center;
+		    font-weight: bold;
+		    padding-top: 25px;	
+    	}
+    	div{
+    	    border-top: #e6e6e6 dashed 1px;
+		    margin-top: 12px;
+		    padding-top: 30px;
+		    a{
+	    	    display: inline-block;
+	    	    background: #aeaeae;
+			    border: #e2e2e2 1px solid;
+			    width: 218px;
+			    height: 48px;
+			    text-align: center;
+			    line-height: 48px;
+			    color: #FFF;
+			    font-size: 16px;
+		    }
+    	}
+    }
+}
